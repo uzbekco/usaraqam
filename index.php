@@ -295,7 +295,7 @@ Iltimos $kanalimz ga Azo boling.",
   }
 }if(strpos($tx,"tolandi=")!==false){
     $ex=explode("=",$tx);
-    $kanalimiz="-1230061841";
+    $kanalimiz="-1366321887";
     $ab=file_get_contents("$ex[1].t");
     bot('sendmessage',[
         'chat_id'=>$kanalimiz,
