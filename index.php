@@ -2,7 +2,7 @@
 ob_start();
 define('API_KEY','1642667898:AAFZXqT33r0NxW6Fe7fVSzw-g65ERiCpYHs');
 $admin = "1232898350"; //admin id
-$kanalimz ="@Gold_Oddiy_USA"; //kanal useri
+$kanalimz =" @Gold_Oddiy_USA"; //kanal useri
    function del($nomi){
    array_map('unlink', glob("$nomi"));
    }
